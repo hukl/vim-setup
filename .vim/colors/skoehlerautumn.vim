@@ -124,7 +124,7 @@ hi Delimiter            guifg=#ffffff                                  " Klammer
 hi Identifier           guifg=#b4ebee                                  " Variablen
 hi Structure            guifg=#9DEEF2                                  " Klassennamen, Klassenklammern
 hi Ignore               guifg=bg 
-hi Constant             guifg=#a3cfdd                   gui=none
+hi Constant             guifg=#90e0f9                   gui=none
 hi PreProc              guifg=#ffffff                   gui=none       " Schluesselwoerter wie function, new, etc.
 hi Type                 guifg=#ffffff                   gui=none       " Typangaben wie class, array, etc.
 hi Statement            guifg=#ffffff                   gui=none       " Anweisungen wie foreach, if, etc. sowie $ bei PHP-Variablen
