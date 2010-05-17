@@ -25,7 +25,7 @@ hi lCursor              guifg=white                     gui=reverse
 hi nCursor              guifg=white                     gui=reverse
 hi CursorLine                           guibg=#383838   gui=none        " Zeilenmarkierung
 hi CursorColumn                         guibg=#383838   gui=none        " Spaltenmarkierung
-hi MatchParen           guifg=#000000   guibg=#C9C749   gui=bold        " Markierung der passenden Klammer
+hi MatchParen           guifg=#000000   guibg=#b4ebee   gui=bold        " Markierung der passenden Klammer
 
 " ----------------------------------------------------------------------------
 " Popup-Menues
@@ -124,16 +124,16 @@ hi Delimiter            guifg=#ffffff                                  " Klammer
 hi Identifier           guifg=#b4ebee                                  " Variablen
 hi Structure            guifg=#9DEEF2                                  " Klassennamen, Klassenklammern
 hi Ignore               guifg=bg 
-hi Constant             guifg=#90e0f9                   gui=none
-hi PreProc              guifg=#ffffff                   gui=none       " Schluesselwoerter wie function, new, etc.
+hi Constant             guifg=#88adf0                   gui=none
+hi PreProc              guifg=#c8ef85                   gui=none       " Schluesselwoerter wie function, new, etc.
 hi Type                 guifg=#ffffff                   gui=none       " Typangaben wie class, array, etc.
-hi Statement            guifg=#ffffff                   gui=none       " Anweisungen wie foreach, if, etc. sowie $ bei PHP-Variablen
+hi Statement            guifg=#c8ef85                   gui=none       " Anweisungen wie foreach, if, etc. sowie $ bei PHP-Variablen
 hi Special              guifg=#d7d7d7                   gui=none       " Sonderzeichen wie \t, \n etc.
-hi String               guifg=#F0D695                   gui=none       " Zeichenketten
-hi Number               guifg=#F0D695                   gui=none       " Zahlen
+hi String               guifg=#f5e1ad                   gui=none       " Zeichenketten
+hi Number               guifg=#f5e1ad                   gui=none       " Zahlen
 hi Underlined                                           gui=underline
 hi Symbol               guifg=#f29d9d                   gui=none
-hi Method               guifg=#D0EF85                   gui=none
+hi Method               guifg=#ffffff                   gui=none
 hi Interpolation        guifg=#eabb44                   gui=none
 " CSS Einstellungen
 hi cssClassName         guifg=#9DEEF2                                  " CSS Klassennamen, z.B. .className
@@ -193,8 +193,8 @@ hi link rubyClassVariable     Identifier
 hi link rubyConstant          Constant
 hi link rubySymbol            Symbol
 hi link rubyFunction          Method
-hi link rubyControl           Method
-hi link rubyConditional       Method
+hi link rubyControl           Statement
+hi link rubyConditional       Statement
 hi link rubyInterpolationDelimiter    Interpolation
 
 hi link erubyDelimiter        Method
