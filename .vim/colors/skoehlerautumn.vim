@@ -98,6 +98,7 @@ hi Folded               guifg=#999999   guibg=#444444   gui=italic
 hi FoldColumn           guifg=#686868   guibg=#333333   gui=none
 hi LineNr               guifg=#686868   guibg=#333333   gui=none
 hi SpecialKey           guifg=#898989                               " z.B. Anzeige von Leerzeichen
+hi ColumnMargin                         guibg=#202020
 
 " ----------------------------------------------------------------------------
 " Diff

@@ -1,8 +1,7 @@
 set nocompatible
 
-set gcr=a:blinkwait0,a:block-cursor
-
-match DiffAdd '\%>80v.*'
+" Highlight characters behind the 80 chars margin
+:au BufWinEnter * let w:m2=matchadd('ColumnMargin', '\%>80v.\+', -1)
 
 set nobackup
 set nowritebackup
@@ -11,6 +10,7 @@ set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set number
+set gcr=n-v-c:block-Cursor/block-Cursor-blinkwait300-blinkon200-blinkoff0,i-ci:ver30-block-Cursor-blinkwait300-blinkon200-blinkoff0
 
 " Softtabs, 2 spaces
 set tabstop=2
