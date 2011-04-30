@@ -41,7 +41,7 @@ hi NonText              guifg=#898989
 hi Error                                guibg=#aa0000   gui=undercurl   guisp=#ffffff
 hi ErrorMsg             guifg=#ffffff   guibg=#990000   gui=none
 hi Todo                 guifg=#edea00   guibg=#555555   gui=underline
-hi Visual               guifg=white     guibg=#000088   gui=none      " Visueller Modus
+hi Visual               guifg=white     guibg=#007F90   gui=none      " Visueller Modus
 hi VisualNOS            guifg=white     guibg=#6080a0   gui=bold
 
 " ----------------------------------------------------------------------------
@@ -52,14 +52,14 @@ hi StatusLineNC         guifg=#7b7b7b   guibg=#333333   gui=none    " Statuszeil
 hi WarningMsg           guifg=#ffffff   guibg=#aa0000
 hi WildMenu             guifg=#ff0000                   gui=none
 hi ModeMsg              guifg=#ffffff                   gui=bold
-hi MoreMsg              guifg=#ffffff                   gui=bold  
-hi Question             guifg=#ffffff                   gui=none 
+hi MoreMsg              guifg=#ffffff                   gui=bold
+hi Question             guifg=#ffffff                   gui=none
 
 " ----------------------------------------------------------------------------
 " Suche
 " ----------------------------------------------------------------------------
-hi Search               guifg=#000000   guibg=#edea00   gui=reverse 
-hi IncSearch            guifg=#000000   guibg=#edea00   gui=none 
+hi Search               guifg=#000000   guibg=#edea00   gui=reverse
+hi IncSearch            guifg=#000000   guibg=#edea00   gui=none
 
 " ----------------------------------------------------------------------------
 " Filesystem-Browser
@@ -105,14 +105,14 @@ hi ColumnMargin                         guibg=#202020
 " ----------------------------------------------------------------------------
 hi DiffAdd              guifg=white     guibg=#2080a0   gui=bold
 hi DiffChange           guifg=white     guibg=#2080a0   gui=bold
-hi DiffDelete           guifg=white     guibg=#306080   gui=none 
-hi DiffText             guifg=white     guibg=#8070a0   gui=bold 
+hi DiffDelete           guifg=white     guibg=#306080   gui=none
+hi DiffText             guifg=white     guibg=#8070a0   gui=bold
 
 " ----------------------------------------------------------------------------
 " Rechtschreibung
 " ----------------------------------------------------------------------------
-hi SpellBad             gui=undercurl   guisp=#76daff 
-hi SpellCap             gui=undercurl   guisp=#7ba2ba 
+hi SpellBad             gui=undercurl   guisp=#76daff
+hi SpellCap             gui=undercurl   guisp=#7ba2ba
 hi SpellRare            gui=undercurl   guisp=#8080f0
 hi SpellLocal           gui=undercurl   guisp=#c0c0e0
 
@@ -124,7 +124,7 @@ hi Comment              guifg=#939393                   gui=none
 hi Delimiter            guifg=#ffffff                                  " Klammern fuer Anweisungen etc.
 hi Identifier           guifg=#b4ebee                                  " Variablen
 hi Structure            guifg=#9DEEF2                                  " Klassennamen, Klassenklammern
-hi Ignore               guifg=bg 
+hi Ignore               guifg=bg
 hi Constant             guifg=#88adf0                   gui=none
 hi PreProc              guifg=#c8ef85                   gui=none       " Schluesselwoerter wie function, new, etc.
 hi Type                 guifg=#ffffff                   gui=none       " Typangaben wie class, array, etc.
@@ -183,9 +183,9 @@ hi link SpecialComment  Special
 hi link Debug           Special
 hi link vimfunction     function
 
-hi link rubyClass             Keyword 
-hi link rubyModule            Keyword 
-hi link rubyKeyword           Keyword 
+hi link rubyClass             Keyword
+hi link rubyModule            Keyword
+hi link rubyKeyword           Keyword
 hi link rubyOperator          Operator
 hi link rubyIdentifier        Identifier
 hi link rubyInstanceVariable  Identifier
@@ -200,3 +200,4 @@ hi link rubyInterpolationDelimiter    Interpolation
 
 hi link erubyDelimiter        Method
 hi link htmlTagName           Identifier
+hi link javascriptType        Identifier
